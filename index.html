@@ -6,19 +6,33 @@
     <meta charset="UTF-8">
     <title>Crystal Game</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
 
-    <div class="buttons">
-        <img class="image" id="image1" src="assets/images/crystal1.png">
-        <img class="image" id="image2" src="assets/images/crystal2.png">
-        <img class="image" id="image3" src="assets/images/crystal3.png">
-        <img class="image" id="image4" src="assets/images/crystal4.png">
+    <div class="game-title">Crystal Collector</div>
+    <div class="instructions-wrap">
+        <h1>Instructions</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem facilis culpa illo quasi? Ab voluptatem corporis
+            at laboriosam maxime facere nihil, itaque molestias ut saepe est eius deleniti vero soluta!</p>
     </div>
-    <script type="text/javascript" src="game.js"></script>
+    <div class="win-loss-wrapper">
+        <div>Wins: <span id="wins"></span></div>
+        <div>Losses: <span id="losses"></span></div>
+    </div>
+    <div class="guess-wrapper">
+        <div id="random-number"></div>
+    </div>
+    <div id="image-wrapper"></div>
+    <div class="total-score-wrapper">Your total score is:</div>
+    <div class="score-wrapper">
+        <div id="score"></div>
+    </div>
+
+
 </body>
 
 </html>
